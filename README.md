@@ -98,6 +98,7 @@ El proyecto utiliza la base de datos Chinook, que contiene información sobre un
 
 ## Notas adicionales
 
-- El modelo utiliza la API de Groq, que requiere una clave de API válida.
+- El proyecto utiliza el modelo Meta Llama-4-scout-17b-16e-instruct a través de la API de Groq, que requiere una clave de API válida.
+- Inicialmente se consideró usar Llama3-8b-8192, pero fue descartado por limitaciones de tokens disponibles por minuto en su versión gratuita.
 - El sistema está diseñado para consultas de solo lectura y no permite operaciones DML (INSERT/UPDATE/DELETE).
 - Para mejores resultados, formule preguntas claras y específicas sobre la información contenida en la base de datos.
